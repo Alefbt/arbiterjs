@@ -12,6 +12,7 @@ This is full replica of v1.0 - GitHubetize ArbiterJs
     Returns: true on success, false if any subscriber has thrown a js exception
 			
 Arbiter.subscribe
+
     Arbiter.subscribe( msg, func )
     Arbiter.subscribe( msg, options, func )
     Arbiter.subscribe( msg, options, context, func )
@@ -19,12 +20,12 @@ Arbiter.subscribe
              or [id1,id2] if subscribing to multiple messages
 			
 Arbiter.unsubscribe
-    Arbiter.unsubscribe( subscription_id )
+`Arbiter.unsubscribe( subscription_id )`
 
 Arbiter.resubscribe
-    Arbiter.resubscribe( subscription_id )
+`Arbiter.resubscribe( subscription_id )`
 
 Arbiter.create
-    Arbiter.create()
+`Arbiter.create()`
 
  
